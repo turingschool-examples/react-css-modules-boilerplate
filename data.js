@@ -1,6 +1,6 @@
 module.exports = {
     routes: [
         '/',
-        '/about'
+        '/list'
     ]
 }

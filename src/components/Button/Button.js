@@ -1,10 +1,10 @@
 import React from 'react'
-import btn from './styles.css'
+import styles from './styles.css'
 
 export default class CoolButton extends React.Component {
     render(){
         return (
-            <button className={btn.red}>{this.props.text}</button>
+            <button className={styles.button}>{this.props.text}</button>
         )
     }
 }

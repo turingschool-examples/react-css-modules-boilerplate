@@ -1,5 +1,5 @@
-.red {
+.button {
+    composes: primary-color-bg from "../../styles/colors.css";
     font-size: 25px;
-    background-color: blue;
     color: white;
 }
